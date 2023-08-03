@@ -4,6 +4,6 @@ nodes:
 - role: control-plane
   extraPortMappings:
   - containerPort: 30306
-    hostPort: 30306 # testy enable to access to mysql container from outside the cluster
+    hostPort: 30306 # trial enable to access to mysql container from outside the cluster
     listenAddress: "0.0.0.0"
     protocol: tcp
